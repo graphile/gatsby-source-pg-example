@@ -26,5 +26,12 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
+    {
+      resolve: 'gatsby-source-pg',
+      options: {
+        connectionString: 'postgres:///gatsby_example',
+        schema: 'public',
+      },
+    },
   ],
 }

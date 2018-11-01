@@ -1,19 +1,37 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/layout'
-import Image from '../components/image'
+import slugifyPost from '../../slugifyPost'
 
-const IndexPage = () => (
+const IndexPage = ({data}) => (
   <Layout>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
-      <Image />
-    </div>
+    <h1>Post List</h1>
+    <ul>
+      {data.postgres.posts.map(post => <li key={post.id}>
+        <strong><Link to={slugifyPost(post)}>
+          {post.title}
+      </Link></strong> by <em>{post.author.username}</em>
+      </li>)}
+  </ul>
+    
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
+
+export const query = graphql`
+  {
+    postgres {
+      posts: allPostsList {
+        id
+        author: userByAuthorId {
+          id
+          username
+        }
+        title
+      }
+    }
+  }
+`
 
 export default IndexPage
