@@ -5554,10 +5554,10 @@ gatsby-source-graphql@^2.0.5:
     node-fetch "^1.7.3"
     uuid "^3.1.0"
 
-gatsby-source-pg@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/gatsby-source-pg/-/gatsby-source-pg-0.1.0.tgz#1f30db84faed6aeba28396b4290f3ca9ec986c7d"
-  integrity sha512-tJOhx4gchJ+zbq/KWM7/A3AfPlU64ydqFypI0RNQQtYdL970HKTYtTemge/2Ka5Hw2h+Bi5kTKS/Vtu/DyAHNQ==
+gatsby-source-pg@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/gatsby-source-pg/-/gatsby-source-pg-0.1.1.tgz#3d8bd19d4cb8ee793ed1a71f6aa9f8a79ffef100"
+  integrity sha512-rbge6RgLdhF9WdRPoK5WIQO2z/I0Df6eya3UsYRHY17pPXo1oKZjHuPfeV6mhAlGvpbkvqRmIhHteu4NFQVV0w==
   dependencies:
     apollo-link "^1.2.3"
     gatsby-source-graphql "^2.0.5"
