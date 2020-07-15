@@ -6276,14 +6276,13 @@ gatsby-source-graphql@^2.0.5:
     node-fetch "^1.7.3"
     uuid "^3.4.0"
 
-gatsby-source-pg@^0.1.4:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/gatsby-source-pg/-/gatsby-source-pg-0.1.4.tgz#d9f3a40dfef077241840790cde15c5b75a739868"
-  integrity sha512-KMypFwj5IackszCwORS0ByB7p//PU+2P6eceWopHkcw6Bj5AgXqtWt0nGv90cKjspJxGmhucGDESr6zTfWvQnA==
+gatsby-source-pg@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/gatsby-source-pg/-/gatsby-source-pg-0.2.0.tgz#620bd2a7e908b7ceca400201f229d3a7c834201d"
+  integrity sha512-oAM25rh0q6Ai3wD6t0CwOKDp/5N+lhM97Pgz3SjKjRPFmsGno09Bi/IB921/cBnE7btoI52B6leBUr7zS4KCIQ==
   dependencies:
     apollo-link "^1.2.3"
     gatsby-source-graphql "^2.0.5"
-    graphql "^14.1.1"
     pg "^7.6.0"
     postgraphile "^4.4.0"
 
@@ -6874,7 +6873,7 @@ graphql-type-json@^0.3.2:
   resolved "https://registry.yarnpkg.com/graphql-type-json/-/graphql-type-json-0.3.2.tgz#f53a851dbfe07bd1c8157d24150064baab41e115"
   integrity sha512-J+vjof74oMlCWXSvt0DOf2APEdZOCdubEvGDUAlqH//VBYcOYsGgRW7Xzorr44LvkjiuvecWc8fChxuZZbChtg==
 
-graphql@14.x, "graphql@>=0.9 <0.14 || ^14.0.2", "graphql@^0.6.0 || ^0.7.0 || ^0.8.0-b || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.2", graphql@^14.1.1, graphql@^14.6.0:
+graphql@14.x, "graphql@>=0.9 <0.14 || ^14.0.2", "graphql@^0.6.0 || ^0.7.0 || ^0.8.0-b || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.2", graphql@^14.6.0:
   version "14.7.0"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-14.7.0.tgz#7fa79a80a69be4a31c27dda824dc04dac2035a72"
   integrity sha512-l0xWZpoPKpppFzMfvVyFmp9vLN7w/ZZJPefUicMCepfJeQ8sMcztloGYY9DfjVPo6tIUDzU5Hw3MUbIjj9AVVA==
