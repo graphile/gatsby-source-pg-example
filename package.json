@@ -13,7 +13,7 @@
     "gatsby-source-filesystem": "^2.3.19",
     "gatsby-source-pg": "^0.1.4",
     "gatsby-transformer-sharp": "^2.5.11",
-    "graphql": "15.3.0",
+    "graphql": "14.x",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0"
@@ -37,6 +37,6 @@
     "url": "https://github.com/gatsbyjs/gatsby-starter-default"
   },
   "resolutions": {
-    "graphql": "0.13.x"
+    "graphql": "14.x"
   }
 }
