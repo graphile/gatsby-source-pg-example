@@ -2,7 +2,7 @@ import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
 
-export default ({ data }) => {
+const BlogPost = ({ data }) => {
   const { post } = data.postgres;
   return (
     <Layout>
@@ -17,8 +17,10 @@ export default ({ data }) => {
   );
 };
 
+export default BlogPost;
+
 export const query = graphql`
-  query($postId: Int!) {
+  query ($postId: Int!) {
     postgres {
       post: postById(id: $postId) {
         id
