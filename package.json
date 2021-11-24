@@ -18,9 +18,7 @@
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0"
   },
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": ["gatsby"],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
@@ -39,7 +37,6 @@
   "resolutions": {
     "graphql": "^15.4.0",
     "graphql-compose": "^7.25.0",
-    "gatsby-source-graphql": "4.x",
     "webpack": "^5.24.2"
   }
 }
